@@ -32,16 +32,13 @@ void Car::setYearModel(int newYearModel)
 
 void Car::printData()const
 {
+    cout <<"-------------------"<<endl;
     cout <<"Brand: "<<brand<<endl;
     cout <<"Model: "<<model<<endl;
     cout <<"Year model: "<<yearModel<<endl;
+    cout <<"-------------------"<<endl;
 }
 
-Car::Car()
-{
-    cout<<"Car olio luotiin"<<endl;
-}
-Car::~Car()
-{
-    cout<<"Car olio tuhottiin"<<endl;
+Car::Car(){
+
 }

@@ -12,7 +12,6 @@ private:
 
 public:
     Car();
-    ~Car();
 
     string getBrand() const;
     void setBrand(const string &newBrand);
