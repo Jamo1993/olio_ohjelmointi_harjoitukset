@@ -18,7 +18,7 @@ int main() {
     cout << "Toisen alkion tiedot:" <<endl;
     carList[1].printData();
 
-    cout << "\nKaikkien autojen tiedot:\n" <<endl;
+    cout << "\nKaikkien autojen tiedot:" <<endl;
     for (int x=0; x<=2;x++) {
         carList[x].printData();
     }
