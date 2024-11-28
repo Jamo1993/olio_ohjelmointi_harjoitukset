@@ -30,7 +30,7 @@ int main()
     cout<<"\nrefB:n osoittaa osoitteeseen: "<<&refA<<endl;
     cout<<"refB:n osoittaman muistipaikan arvo on: "<<b<<endl;
 
-
+//Ei pystynyt muuttamaan, viittaa edelleen alkuperäiseen A muuttujan osoitteeseen..
 
 
 
