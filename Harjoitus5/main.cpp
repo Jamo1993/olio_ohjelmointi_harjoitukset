@@ -33,9 +33,12 @@ int main()
     cout<<"refB:n osoittaman muistipaikan arvo on: "<<b<<endl;
 
 //Ei pystynyt muuttamaan, viittaa edelleen alkuperäiseen A muuttujan osoitteeseen..
+<<<<<<< HEAD
 
     ClassB objB;
     objB.setInfo("Olion B asettama info");
+=======
+>>>>>>> 269e99e6f9055246ca9bdad37110c6f803780bee
 
     AssosiationA objAss(objB);
     objAss.setBinfo("Olion objAss asettama info");
